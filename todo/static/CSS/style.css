@@ -1,0 +1,52 @@
+body
+{
+  background-color: #f8e597;
+  font-size: 30px;
+}
+
+.container
+{
+  background-color: #db494a;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #678b5c;
+}
+
+.container h1
+{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 80px;
+  font-style: bold;
+  background-color: #f8e597;
+  color: #678b5c;
+}
+
+.list
+{
+    padding-left: 300px;
+}
+
+.categories ul
+{
+	/*padding:30,0,30,0;*/
+	padding-left:20px;
+  list-style-type: none;
+	list-style:square;
+	list-style:none;
+}
+
+.categories li
+{
+  font-size: 30px;
+	padding-bottom: 6px;
+	/*list-style-image: url('{% static 'images/check.png' %}');*/
+}
+
+.form
+{
+    text-align: center;
+}
